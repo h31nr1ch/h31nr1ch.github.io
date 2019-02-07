@@ -27,12 +27,34 @@
 
       <section>
         <div id="title">
-          <h1> Honeypot </h1>
-          <h5> . </h5>
+          <h1>Honeypot</h1>
+          <h5>. </h5>
           <hr>
         </div>
 
-        <p>Bla Bla Bla.</p>
+        <h3></h3>
+
+        <h2>(2019 PAM) Characterization of Multiprotocol DRDoS Attacks</h2>
+        <p>Distributed denial-of-service attacks (DDoS) have been seen on the Internet for nearly 25 years. In these attacks, a set of machines sends traffic to a victim in a coordinated fashion. The volume of data leads to the exhaustion of system and/or network resources at the victim, causing service unavailability and hurting legitimate customers. Distributed reflection denial-of-service (DRDoS) attacks are one kind of DDoS attack in which traffic is bounced off unsuspecting intermediate systems, known as reflectors. DRDoS attacks not only make attribution harder due to an extra layer of indirection, but they also provide traffic amplification, thus making it easier to generate enough traffic to disrupt the target, especially when multiple reflectors are used simultaneously. Moreover, DRDoS attacks can leverage several different protocols, notably UDP-based ones, and there is a large number of vulnerable and/or misconfigured Internet servers that can be used as reflectors. All these benefits to attackers help explain the prevalence of DRDoS traffic on the Internet.
+        <br><br>
+        Given the relevance of DRDoS attacks, researchers have worked on the analysis and characterization of the traffic associated with such attacks. These investigations provide better understanding of how these attacks work in practice, and guide the evolution of defense mechanisms. However, there is a lack of research on multiprotocol DRDoS attacks, where a victim is attacked using multiple protocols simultaneously, which is an emerging trend in the DDoS scene. Existing research considers either individual protocols, or multiple protocols in isolation from each other.
+        <br><br>
+        Our research aims to bridge this gap in knowledge by characterizing multiprotocol DRDoS attacks. We have designed and implemented a honeypot that emulates reflectors for several protocols that are exploited in DRDoS attacks: Chargen, DNS, NTP, Memcached, QOTD, SSDP, and Steam.
+        <br><br>
+        Preliminary results from 30 days of data collected by our honeypot, with more than 381M requests and 14k unique victims, confirm the hypothesis that multiprotocol attacks can be found in the wild: roughly 1% of the victims of DRDoS attacks carried out using our honeypot as a reflector suffered a multiprotocol attack, with up to three protocols being used simultaneously. The median duration of multiprotocol attacks was 208.6 minutes, nearly ten times the median duration of single protocol attacks (21.4 minutes).
+        <br><br>
+        The results presented above are illustrative, not exhaustive. Since data collection is ongoing, in the PAM poster we intend to present up-to-date traffic characteristics of recent honeypot data, covering an extended collection period. </p>
+
+        <h3></h3>
+
+        <h2>(2018 GTS 31) Characterization and Evolution of Malicious Traffic Observed in a DNS Honeypot </h2>
+        <p>Presentation <a href="gts.pdf">gts 2018</a>. </p>
+
+        <h3></h3>
+
+        <h2>(2017 SBSeg) Experiments with a Honeypot DNS: Characterization and Evolution of Malicious Traffic </h2>
+
+        <p>The Domain Name System (DNS) plays a central role in the operation of the Internet, being responsible for translating user-friendly names into machine-friendly IP addresses. However, the DNS has certain structural security vulnerabilities which allow it to be attacked or used as a tool for attacking third parties. Currently, a major concern are Distributed Reflection Denial of Service (DRDoS) attacks, which leverage misconfigured DNS servers to flood victims with traffic. This paper introduces DNSHoney, a DNS-specific honeypot that allows attackers to interact with an open recursive DNS server in a controlled manner. We also analyze the DNS traffic observed by this honeypot over two periods, in 2015 (49 days) and 2016–2017 (250 days), with a focus on DRDoS attacks, and highlight some lesser-known aspects of attacker behavior. </p>
 
   </body>
 </html>
