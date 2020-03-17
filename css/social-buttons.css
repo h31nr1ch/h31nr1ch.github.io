@@ -26,11 +26,11 @@ a.sb,
 	position: relative;
 	vertical-align: middle;
 	margin: 0 2px 5px 0;
-	
+
 	/* default button color */
 	background-color: #ececec;
 	border: solid 1px #b8b8b9;
-	
+
 	/* default box shadow */
 	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 0 rgba(0,0,0,.1);
 	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 0 rgba(0,0,0,.1);
@@ -40,7 +40,7 @@ a.sb,
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	
+
 }
 /* for IE */
 *:first-child+html a.sb,
@@ -102,7 +102,7 @@ a.sb.gradient:after,
 	top: -1px;
 	left: -1px;
 	z-index: -1;
-	
+
 	-webkit-box-shadow: inset 0 2px 0 rgba(255,255,255,.3);
 	-moz-box-shadow: inset 0 2px 0 rgba(255,255,255,.3);
 	box-shadow: inset 0 2px 0 rgba(255,255,255,.3);
@@ -548,7 +548,7 @@ a.sb.min,
 .sb.min a {
 	background-color: transparent;
 	border: none;
-	
+
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
@@ -648,7 +648,7 @@ a.sb.glossy:before,
 	position: absolute;
 	top: 0;
 	left: 0;
-	
+
 	/* glossy overlay */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjQiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
 	background: -moz-linear-gradient(top,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.2) 100%);
@@ -702,6 +702,11 @@ a.sb.flat:before,
 a.sb.twitter,
 .sb a.twitter {
 	background-image: url(images/twitter_bird.png);
+}
+
+a.sb.discord,
+.sb a.discord {
+	background-image: url(images/discord.png);
 }
 
 a.sb.facebook,
@@ -767,6 +772,25 @@ a.sb.black.twitter,
 a.sb.gray.twitter,
 .sb.gray a.twitter {
 	background-image: url(images/white_twitter_bird.png);
+}
+
+a.sb.blue.discord,
+.sb.blue a.discord,
+a.sb.purple.discord,
+.sb.purple a.discord,
+a.sb.red.discord,
+.sb.red a.discord,
+a.sb.green.discord,
+.sb.green a.discord,
+a.sb.orange.discord,
+.sb.orange a.discord,
+a.sb.brown.discord,
+.sb.brown a.discord,
+a.sb.black.discord,
+.sb.black a.discord,
+a.sb.gray.discord,
+.sb.gray a.discord {
+	background-image: url(images/discord.png);
 }
 
 a.sb.blue.facebook,
@@ -954,7 +978,7 @@ a.sb.email {
 a.sb.custom {
 	width: 80px;
 	height: 80px;
-	
+
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
