@@ -1,0 +1,9 @@
+a.disabled {
+    color: gray;
+}
+
+body.container {
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #ffffff;
+}
