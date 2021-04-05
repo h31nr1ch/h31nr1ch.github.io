@@ -5,6 +5,10 @@
     <title>H31nr1ch</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pam2021.css">
+    <script src="js/jquery.1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="css/otherspub.css">
   </head>
 
@@ -17,8 +21,18 @@
     </div>
     <ul class="nav navbar-nav">
       <li><a href="index.html">Home</a></li>
-      <li class="active"><a href="publications.html">Publications</a></li>
-      <li><a href="lectures.html">Lectures</a></li>
+      <li ><a href="publications.html">Publications</a></li>
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lectures<span class="caret">&nbsp;</span></a>
+          <ul class="dropdown-menu">
+            <li><a href="lectures/cs.html">Computational Security </a></li>
+            <li><a href="lectures/at2.html">Advanced Topics II </a></li>
+            <li><a href="lectures/cn.html">Computer Network</a></li>
+          </ul>
+      </li>
+      <!--
+      <li class="active"><a href="lectures.html">Lectures</a></li>
+    -->
       <li><a href="cv.html">CV</a></li>
     </ul>
   </div>
